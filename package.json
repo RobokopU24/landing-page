@@ -10,19 +10,23 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@types/node": "20.2.5",
-    "@types/react": "18.2.7",
-    "@types/react-dom": "18.2.4",
-    "eslint": "8.41.0",
-    "eslint-config-next": "13.4.4",
-    "next": "13.4.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-hook-form": "^7.44.3",
-    "typescript": "5.0.4"
+    "@types/node": "24.0.4",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "eslint": "9.29.0",
+    "next": "15.3.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.58.1",
+    "typescript": "5.8.3"
   },
   "devDependencies": {
-    "prettier": "^2.8.8",
-    "typescript-plugin-css-modules": "^5.0.1"
+    "eslint-config-next": "15.3.4",
+    "prettier": "^3.6.1",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "overrides": {
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6"
   }
 }
